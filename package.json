@@ -1,0 +1,37 @@
+{
+  "name": "httprequest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rest.js",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thegicode/httprequest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thegicode/httprequest/issues"
+  },
+  "homepage": "https://github.com/thegicode/httprequest#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "lodash.findindex": "^4.6.0",
+    "uuidv4": "^6.2.12"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.10",
+    "standard": "12.0.1"
+  },
+  "standard": {
+    "globals": [
+      "XMLHttpRequest",
+      "fetch",
+      "Headers",
+      "axios"
+    ]
+  }
+}
